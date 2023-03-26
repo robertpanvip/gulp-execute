@@ -1,0 +1,46 @@
+{
+  "name": "@es-pkg/execute",
+  "version": "1.0.0",
+  "description": "gulp node执行",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "es/index.d.ts",
+  "scripts": {
+    "compile": "npm run typecheck && es-pkg compile",
+    "unpkg": "es-pkg unpkg",
+    "doc": "es-pkg doc",
+    "publish": "es-pkg publish",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "gulp": "^4.0.2",
+    "pretty-time": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/pretty-time": "^1.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "es-pkg": "@latest",
+    "eslint": "^8.19.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "gulp-execute"
+  ],
+  "homepage": "https://github.com/robertpanvip/@es-pkg/execute.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertpanvip/@es-pkg/execute.git"
+  },
+  "bugs": {
+    "url": "https://github.com/robertpanvip/@es-pkg/execute/issues"
+  },
+  "author": "pan",
+  "license": "ISC"
+}
