@@ -2,7 +2,7 @@
   "name": "@es-pkg/execute",
   "version": "1.0.0",
   "description": "gulp node执行",
-  "main": "lib/index.js",
+  "main": "es/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "scripts": {
@@ -15,7 +15,8 @@
   "dependencies": {
     "chalk": "^5.0.1",
     "gulp": "^4.0.2",
-    "pretty-time": "^1.1.0"
+    "pretty-time": "^1.1.0",
+    "@babel/runtime": "latest"
   },
   "devDependencies": {
     "@types/gulp": "^4.0.9",
